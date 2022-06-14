@@ -112,8 +112,8 @@ export default {
         }
       ],
       text1: ["Back-End Developer", "Web Developer", "Web Designer"],
-      leftImage: "./backgrounds/image1.jpg",
-      rightImage: "./backgrounds/image2.jpg",
+      leftImage: "./backgrounds/image2.jpg",
+      rightImage: "./backgrounds/image1.jpg",
       leftImage2: "./backgrounds/image2.jpg",
       rightImage2: "./backgrounds/image1.jpg",
       sliderLine: 0,
