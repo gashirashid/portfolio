@@ -24,7 +24,7 @@
             </h3>
             <div>
               <p>
-                Hello! I’m Yaseen Rashid. I'm a Web developer who
+                Hello! I’m Yaseen . I'm a Web developer who
                 is passionate about
                 <span class="green--text font-weight-bold">CODING</span>, building great user experiences,
                 fighting for simplicity over complexity and constantly learning.
