@@ -1,7 +1,7 @@
 <template>
   <v-container grid-list-xl>
     <v-layout row justify-center align-center wrap class="mt-4 pt-2">
-      <v-flex v-for="portfolio in portfolios" :key="portfolio.src" xs12 sm12 md4 lg4 xl4>
+      <!-- <v-flex v-for="portfolio in portfolios" :key="portfolio.src" xs12 sm12 md4 lg4 xl4>
         <v-card
           :to="'/portfolio/'+(portfolio.title).toLowerCase()"
           hover
@@ -15,7 +15,8 @@
             <v-flex text-xs-center subheading font-weight-bold>{{portfolio.title}}</v-flex>
           </v-card-title>
         </v-card>
-      </v-flex>
+      </v-flex> -->
+      IN PROGRESS
     </v-layout>
   </v-container>
 </template>
@@ -24,19 +25,19 @@
 export default {
   metaInfo: {
     title: "Portfolio",
-    titleTemplate: "%s ← Eldin's Space",
+    titleTemplate: "%s ← Yaseen's Space",
     meta: [
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         name: "description",
         content:
-          "Eldin Zaimovic's Portfolio Web Development Video Editing Graphic Design Front-End Advetising"
+          "Yaseen Rashid's Portfolio Web Development Video Editing Graphic Design Front-End Advetising"
       },
       { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
+      { property: "og:title", content: "Yaseen' Rashid" },
+      { property: "og:site_name", content: "Yaseen' Rashid" },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://eldin.space" },
+      { property: "og:url", content: "https://Yaseen.rashid" },
       {
         property: "og:image",
         content: "https://i.imgur.com/Dcz2PGx.jpg"
@@ -44,7 +45,7 @@ export default {
       {
         property: "og:description",
         content:
-          "Eldin Zaimovic's Portfolio Web Development Video Editing Graphic Design Front-End Advetising"
+          "Yaseen Rashid's Portfolio Web Development Video Editing Graphic Design Front-End Advetising"
       }
     ]
   },

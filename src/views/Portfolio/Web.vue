@@ -54,19 +54,19 @@
 export default {
   metaInfo: {
     title: "Web Portfolio",
-    titleTemplate: "%s ← Eldin's Space",
+    titleTemplate: "%s ← Yaseen's Space",
     meta: [
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         name: "description",
         content:
-          "Eldin Zaimovic's Web Portfolio Vue Vue.js Nuxt Nuxt.js HTML CSS Vuetify Axios GraphQL JavaScript Web Developer Front-End Frontend Designer App Responsive"
+          "Yaseen Rashid's Web Portfolio Vue Vue.js Nuxt Nuxt.js HTML CSS Vuetify Axios GraphQL JavaScript Web Developer Front-End Frontend Designer App Responsive"
       },
       { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
+      { property: "og:title", content: "Yaseen' Rashid" },
+      { property: "og:site_name", content: "Yaseen' Rashid" },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://eldin.space" },
+      { property: "og:url", content: "https://Yaseen.rashid" },
       {
         property: "og:image",
         content: "https://i.imgur.com/Dcz2PGx.jpg"
@@ -74,7 +74,7 @@ export default {
       {
         property: "og:description",
         content:
-          "Eldin Zaimovic's Web Portfolio Vue Vue.js Nuxt Nuxt.js HTML CSS Vuetify Axios GraphQL JavaScript Web Developer Front-End Frontend Designer App Responsive"
+          "Yaseen Rashid's Web Portfolio Vue Vue.js Nuxt Nuxt.js HTML CSS Vuetify Axios GraphQL JavaScript Web Developer Front-End Frontend Designer App Responsive"
       }
     ]
   },
@@ -85,7 +85,7 @@ export default {
          {
           dialog: false,
           title: "Euphoric Voyage",
-          git: "https://github.com/EldinZaimovic/euphoric-voyage",
+          git: "https://github.com/YaseenRashid/euphoric-voyage",
           demo: "https://www.euphoric-voyage.com/",
           tech: {
             tech1: "Gatsby",
@@ -98,8 +98,8 @@ export default {
         {
           dialog: false,
           title: "This Site",
-          git: "https://github.com/EldinZaimovic/Eldin-Space-Vue",
-          demo: "https://eldin.space/",
+          git: "https://github.com/YaseenRashid/Yaseen-Space-Vue",
+          demo: "https://Yaseen.rashid/",
           tech: {
             tech1: "VUE",
             tech2: "Storyblok",
@@ -124,7 +124,7 @@ export default {
         {
           dialog: false,
           title: "Digital Madness Test",
-          git: "https://github.com/EldinZaimovic/Digital-Madness-test",
+          git: "https://github.com/YaseenRashid/Digital-Madness-test",
           demo: "https://digital-madness-test.netlify.com/",
           tech: {
             tech1: "VUE",
@@ -137,7 +137,7 @@ export default {
         {
           dialog: false,
           title: "Snowball Coding Challenge",
-          git: "https://github.com/EldinZaimovic/SnowBall-Project",
+          git: "https://github.com/YaseenRashid/SnowBall-Project",
           demo: "https://snowball-test.netlify.com/",
           tech: {
             tech1: "VUE",
@@ -150,7 +150,7 @@ export default {
         {
           dialog: false,
           title: "IBM Coding Challenge - Films Location",
-          git: "https://github.com/EldinZaimovic/Film-Location-List",
+          git: "https://github.com/YaseenRashid/Film-Location-List",
           demo: "https://film-location-ibm-cc.netlify.com/",
           tech: {
             tech1: "VUE",
@@ -163,8 +163,8 @@ export default {
         {
           dialog: false,
           title: "Stock Trader",
-          git: "https://github.com/EldinZaimovic/Stock-Trader",
-          demo: "https://stock-trader-eldin.netlify.com/",
+          git: "https://github.com/YaseenRashid/Stock-Trader",
+          demo: "https://stock-trader-Yaseen.netlify.com/",
           tech: {
             tech1: "VUE",
             tech2: "Vuex",
@@ -189,8 +189,8 @@ export default {
         {
           dialog: false,
           title: "My Old Web Portfolio",
-          git: "https://github.com/EldinZaimovic/EldinZaimovic.github.io",
-          demo: "https://eldinzaimovic.github.io/index.html",
+          git: "https://github.com/YaseenRashid/YaseenRashid.github.io",
+          demo: "https://YaseenRashid.github.io/index.html",
           tech: {
             tech1: "HTML",
             tech2: "CSS",

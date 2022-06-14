@@ -7,12 +7,12 @@
           <v-timeline-item color="green" small>
             <v-layout pt-3>
               <v-flex xs4>
-                <div class="caption font-weight-bold green--text">JAN 2018 -</div>
-                <div class="caption font-weight-bold green--text">PRESENT</div>
+                <div class="caption font-weight-bold green--text">AUG 2016 -</div>
+                <div class="caption font-weight-bold green--text">NOV 2020</div>
               </v-flex>
               <v-flex class="pl-2">
-                <strong>Full Stack Web Development Course</strong>
-                <div class="caption mb-2">freeCodeCamp</div>
+                <strong>Bachelor Of Technology with 80%</strong>
+                <div class="caption mb-2">University Of Kashmir  </div>
               </v-flex>
             </v-layout>
           </v-timeline-item>
@@ -20,12 +20,12 @@
           <v-timeline-item color="green" small>
             <v-layout pt-3>
               <v-flex xs4>
-                <div class="caption font-weight-bold green--text">SEP 2007 -</div>
-                <div class="caption font-weight-bold green--text">MAY 2014</div>
+                <div class="caption font-weight-bold green--text">DEC 2014 -</div>
+                <div class="caption font-weight-bold green--text">NOV 2015</div>
               </v-flex>
               <v-flex class="pl-2">
-                <strong>Telecommunications Engineering</strong>
-                <div class="caption mb-2">University of East Sarajevo</div>
+                <strong>12th with 73.2%</strong>
+                <div class="caption mb-2">JK BOSE </div>
               </v-flex>
             </v-layout>
           </v-timeline-item>
@@ -33,12 +33,12 @@
           <v-timeline-item color="green" small>
             <v-layout pt-3>
               <v-flex xs4>
-                <div class="caption font-weight-bold green--text">SEP 2003 -</div>
-                <div class="caption font-weight-bold green--text">MAY 2007</div>
+                <div class="caption font-weight-bold green--text">DEC 2012 -</div>
+                <div class="caption font-weight-bold green--text">NOV 2013</div>
               </v-flex>
               <v-flex class="pl-2">
-                <strong>Electrical Technician for Computers</strong>
-                <div class="caption mb-2">Electro-technical school Doboj</div>
+                <strong>10th with 82.8%</strong>
+                <div class="caption mb-2">JK BOSE </div>
               </v-flex>
             </v-layout>
           </v-timeline-item>
@@ -52,12 +52,12 @@
           <v-timeline-item color="green" small>
             <v-layout pt-3>
               <v-flex xs4>
-                <div class="caption font-weight-bold green--text">DEC 2016 -</div>
-                <div class="caption font-weight-bold green--text">PRESENT</div>
+                <div class="caption font-weight-bold green--text">NOV 2021 -</div>
+                <div class="caption font-weight-bold green--text">JUNE 2022</div>
               </v-flex>
               <v-flex class="pl-2">
-                <strong>Freelance Frontend Developer</strong>
-                <div class="caption mb-2">Remote</div>
+                <strong>Sr. PHP Developer</strong>
+                <div class="caption mb-2">LBM SOLUTIONS MOHALI</div>
               </v-flex>
             </v-layout>
           </v-timeline-item>
@@ -65,12 +65,12 @@
           <v-timeline-item color="green" small>
             <v-layout pt-3>
               <v-flex xs4>
-                <div class="caption font-weight-bold green--text">FEB 2018 -</div>
-                <div class="caption font-weight-bold green--text">JULY 2018</div>
+                <div class="caption font-weight-bold green--text">JAN 2021 -</div>
+                <div class="caption font-weight-bold green--text">NOV 2021</div>
               </v-flex>
               <v-flex class="pl-2">
-                <strong>Teacher for electrical technicians</strong>
-                <div class="caption mb-2">High School Doboj Istok</div>
+                <strong>Junior PHP Developer</strong>
+                <div class="caption mb-2">LBM SOLUTIONS MOHALI</div>
               </v-flex>
             </v-layout>
           </v-timeline-item>
@@ -78,12 +78,12 @@
           <v-timeline-item color="green" small>
             <v-layout pt-3>
               <v-flex xs4>
-                <div class="caption font-weight-bold green--text">AUG 2014 -</div>
-                <div class="caption font-weight-bold green--text">APR 2016</div>
+                <div class="caption font-weight-bold green--text">OCT 2019 -</div>
+                <div class="caption font-weight-bold green--text">FEB 2020</div>
               </v-flex>
               <v-flex class="pl-2">
-                <strong>IT Technician</strong>
-                <div class="caption mb-2">MFS-EMMAUS</div>
+                <strong>Web Developer Intern</strong>
+                <div class="caption mb-2">Ready Steady Digital</div>
               </v-flex>
             </v-layout>
           </v-timeline-item>
@@ -98,11 +98,11 @@
           <span class="green--text">Skills</span>
         </h2>
         <br>
-        <strong>Photoshop</strong>
+        <strong>BOOTSTRAP</strong>
         <v-progress-linear v-model="buffer1" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
-        <strong>Adobe XD</strong>
+        <strong>CSS</strong>
         <v-progress-linear v-model="buffer2" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
-        <strong>Zeplin</strong>
+        <strong>VUE JS</strong>
         <v-progress-linear v-model="buffer3" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
       </v-flex>
       <v-flex xs12 sm12 md4 lg5 xl5 class="mx-2 pt-4">
@@ -111,16 +111,16 @@
           <span class="green--text">Skills</span>
         </h2>
         <br>
-        <strong>VUE/NUXT</strong>
+        <strong>PHP</strong>
         <v-progress-linear v-model="buffer4" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
-        <strong>HTML/CSS</strong>
+        <strong>LARAVEL/CODEIGNITER</strong>
         <v-progress-linear v-model="buffer5" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
-        <strong>JavaScript</strong>
+        <strong>JAVASCRIPT</strong>
         <v-progress-linear v-model="buffer6" :buffer-value="bufferValue" color="green" height="16"></v-progress-linear>
       </v-flex>
       <div class="mt-4 pt-2">
         <v-btn
-          href="https://docs.google.com/document/d/1WSR42FEgUahJuR_RArW1wz7TfUBlgj13zekRidmQgs4/edit?usp=sharing"
+          href="https://drive.google.com/file/d/1nSuz-3tx8PhFKyXo1oRZ9hVMhkJHiZxn/view?usp=sharing"
           target="_blank"
           color="green"
           dark
@@ -138,19 +138,19 @@
 export default {
   metaInfo: {
     title: "Resume",
-    titleTemplate: "%s ← Eldin's Space",
+    titleTemplate: "%s ← Yaseen's Rashid",
     meta: [
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         name: "description",
         content:
-          "Vue NUXT HTML CSS JavaScript Design Adobe XD Photoshop Coding Skills Resume Work Web Developer Front-End"
+          "PHP Laravel Codeigniter Vue js  javascript web developer"
       },
       { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
+      { property: "og:title", content: "Yaseen' Rashid" },
+      { property: "og:site_name", content: "Yaseen' Rashid" },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://eldin.space" },
+      { property: "og:url", content: "https://Yaseen.Rashid" },
       {
         property: "og:image",
         content: "https://i.imgur.com/Dcz2PGx.jpg"
@@ -158,7 +158,7 @@ export default {
       {
         property: "og:description",
         content:
-          "Vue NUXT HTML CSS JavaScript Design Adobe XD Photoshop Coding Skills Resume Work Web Developer Front-End"
+          "PHP Laravel Codeigniter Vue js  javascript web developer"
       }
     ]
   },
@@ -189,9 +189,9 @@ export default {
         this.buffer1 = 90;
         this.buffer2 = 85;
         this.buffer3 = 80;
-        this.buffer4 = 80;
-        this.buffer5 = 90;
-        this.buffer6 = 70;
+        this.buffer4 = 90;
+        this.buffer5 = 80;
+        this.buffer6 = 82;
       }, 800);
     }
   }

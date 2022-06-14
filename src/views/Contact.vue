@@ -8,23 +8,24 @@
         </h2>
         <div class="py-4 subheading font-weight-bold">
           <v-icon large color="green" left>fas fa-map-marker-alt</v-icon>
-          <span>Doboj,&nbsp;</span>
-          <span class="green--text">Bosnia & Herzegovina</span>
+          <span>Srinagar,&nbsp;</span>
+          <span class="green--text">Jammu & Kashmir</span>
         </div>
         <div class="py-4 subheading font-weight-bold">
           <v-icon large color="green" left>fas fa-envelope</v-icon>
-          <span>eldin@</span>
-          <span class="green--text">zaimovic.com</span>
+          <span>mailmeyaseen@</span>
+          <span class="green--text">gmail.com</span>
         </div>
         <div class="py-4 subheading font-weight-bold">
           <v-icon large color="green" left>fas fa-phone</v-icon>
-          <span>+387&nbsp;</span>
-          <span class="green--text">61 596 676</span>
+          <span>+91&nbsp;</span>
+          <span class="green--text">9797 290 645</span>
+          
         </div>
         <div class="py-4 subheading font-weight-bold">
           <v-icon large color="green" left>fas fa-check</v-icon>
           <span>Freelance</span>
-          <span class="green--text">Available</span>
+          <span class="green--text"> Available</span>
         </div>
       </v-flex>
 
@@ -34,45 +35,15 @@
           <span class="green--text">Form</span>
         </h2>
 
-        <form method="POST" action="https://formspree.io/eldin@zaimovic.com">
-          <v-text-field
-            name="name"
-            color="green"
-            background-color="transparent"
-            v-model="name"
-            :error-messages="nameErrors"
-            label="Name"
-            required
-            @blur="$v.name.$touch()"
-          ></v-text-field>
-          <v-text-field
-            type="email"
-            color="green"
-            background-color="transparent"
-            name="email"
-            v-model="email"
-            :error-messages="emailErrors"
-            label="E-mail"
-            required
-            @blur="$v.email.$touch()"
-          ></v-text-field>
-          <v-textarea
-            color="green"
-            background-color="transparent"
-            :counter="200"
-            :error-messages="bodyErrors"
-            v-model="body"
-            label="Textarea"
-            name="body"
-            @blur="$v.body.$touch()"
-          ></v-textarea>
-          <v-btn
-            @click="submit"
-            type="submit"
-            color="green"
-            class="white--text"
-            :disabled=" (body.length<=20)"
-          >SEND MESSAGE</v-btn>
+        <form method="POST" action="https://formspree.io/Yaseen@Rashid.com">
+          <v-text-field name="name" color="green" background-color="transparent" v-model="name"
+            :error-messages="nameErrors" label="Name" required @blur="$v.name.$touch()"></v-text-field>
+          <v-text-field type="email" color="green" background-color="transparent" name="email" v-model="email"
+            :error-messages="emailErrors" label="E-mail" required @blur="$v.email.$touch()"></v-text-field>
+          <v-textarea color="green" background-color="transparent" :counter="200" :error-messages="bodyErrors"
+            v-model="body" label="Textarea" name="body" @blur="$v.body.$touch()"></v-textarea>
+          <v-btn @click="submit" type="submit" color="green" class="white--text" :disabled="(body.length <= 20)">SEND
+            MESSAGE</v-btn>
           <v-btn @click="clear">clear</v-btn>
         </form>
       </v-flex>
@@ -91,19 +62,19 @@ import {
 export default {
   metaInfo: {
     title: "Contact",
-    titleTemplate: "%s ← Eldin's Space",
+    titleTemplate: "%s ← Yaseen's Rashid",
     meta: [
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         name: "description",
         content:
-          "Eldin Zaimovic's Contact Doboj Bosnia and Herzegovina Freelance Get in Touch ContactMe"
+          "Yaseen Rashid's Contact Srinagar Jammu & Kashmir Freelance Get in Touch ContactMe"
       },
       { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
+      { property: "og:title", content: "Yaseen' Rashid" },
+      { property: "og:site_name", content: "Yaseen' Rashid" },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://eldin.space" },
+      { property: "og:url", content: "https://Yaseen.Rashid" },
       {
         property: "og:image",
         content: "https://i.imgur.com/Dcz2PGx.jpg"
@@ -111,7 +82,7 @@ export default {
       {
         property: "og:description",
         content:
-          "Eldin Zaimovic's Contact Doboj Bosnia and Herzegovina Freelance Get in Touch ContactMe"
+          "Yaseen Rashid's Contact Srinagar Jammu & Kashmir Freelance Get in Touch ContactMe"
       }
     ]
   },

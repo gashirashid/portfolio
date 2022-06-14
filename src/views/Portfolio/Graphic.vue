@@ -37,19 +37,19 @@
 export default {
   metaInfo: {
     title: "Graphic Portfolio ",
-    titleTemplate: "%s ← Eldin's Space",
+    titleTemplate: "%s ← Yaseen's Space",
     meta: [
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         name: "description",
         content:
-          "Eldin Zaimovic's Graphic Adobe PhotoShop Logo Design Instagram Poster"
+          "Yaseen Rashid's Graphic Adobe PhotoShop Logo Design Instagram Poster"
       },
       { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
+      { property: "og:title", content: "Yaseen' Rashid" },
+      { property: "og:site_name", content: "Yaseen' Rashid" },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://eldin.space" },
+      { property: "og:url", content: "https://Yaseen.rashid" },
       {
         property: "og:image",
         content: "https://i.imgur.com/Dcz2PGx.jpg"
@@ -57,7 +57,7 @@ export default {
       {
         property: "og:description",
         content:
-          "Eldin Zaimovic's Graphic Adobe PhotoShop Logo Design Instagram Poster"
+          "Yaseen Rashid's Graphic Adobe PhotoShop Logo Design Instagram Poster"
       }
     ]
   },
