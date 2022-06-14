@@ -1,7 +1,8 @@
 <template>
   <v-layout column justify-center align-center class="mt-4 pt-2">
-    <VueCompareImage class="hidden-md-and-down" hover :style="{ minWidth: '1300px' }" :sliderLineWidth="sliderLine"
-      :handleSize="hSize" :leftImage="leftImage" :rightImage="rightImage" :sliderPositionPercentage="sliderPosition" />
+    <VueCompareImage class="hidden-md-and-down" hover :style="{ minWidth: '1300px' , height:'500px'}"
+      :sliderLineWidth="sliderLine" :handleSize="hSize" :leftImage="leftImage" :rightImage="rightImage"
+      :sliderPositionPercentage="sliderPosition" />
     <VueCompareImage class="hidden-lg-and-up" hover :style="{ maxWidth: '400px' }" :sliderLineWidth="sliderLine"
       :handleSize="hSize" :leftImage="leftImage2" :rightImage="rightImage2"
       :sliderPositionPercentage="sliderPosition" />
@@ -111,10 +112,10 @@ export default {
         }
       ],
       text1: ["Back-End Developer", "Web Developer", "Web Designer"],
-      leftImage: "https://i.imgur.com/bU50uS9.jpg",
-      rightImage: "https://i.imgur.com/z3ZoEEw.jpg",
-      leftImage2: "https://i.imgur.com/SXBitjh.jpg",
-      rightImage2: "https://i.imgur.com/Dcz2PGx.jpg",
+      leftImage: "./backgrounds/image1.jpg",
+      rightImage: "./backgrounds/image2.jpg",
+      leftImage2: "./backgrounds/image2.jpg",
+      rightImage2: "./backgrounds/image1.jpg",
       sliderLine: 0,
       hSize: 0,
       sliderPosition: 0.5

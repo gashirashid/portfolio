@@ -35,7 +35,7 @@
           <span class="green--text">Form</span>
         </h2>
 
-        <form method="POST" action="https://formspree.io/Yaseen@Rashid.com">
+        <form method="POST" action="">
           <v-text-field name="name" color="green" background-color="transparent" v-model="name"
             :error-messages="nameErrors" label="Name" required @blur="$v.name.$touch()"></v-text-field>
           <v-text-field type="email" color="green" background-color="transparent" name="email" v-model="email"
