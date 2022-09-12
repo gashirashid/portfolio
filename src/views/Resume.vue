@@ -49,6 +49,18 @@
       <h2 class="mb-4 pl-4">Experience</h2>
       <v-card-text class="py-0">
         <v-timeline align-top dense>
+         <v-timeline-item color="green" small>
+            <v-layout pt-3>
+              <v-flex xs4>
+                <div class="caption font-weight-bold green--text">NOV 2021 -</div>
+                <div class="caption font-weight-bold green--text">JUNE 2022</div>
+              </v-flex>
+              <v-flex class="pl-2">
+                <strong>PHP Developer</strong>
+                <div class="caption mb-2">Valueleaf Services Pvt Ltd</div>
+              </v-flex>
+            </v-layout>
+          </v-timeline-item>
           <v-timeline-item color="green" small>
             <v-layout pt-3>
               <v-flex xs4>
